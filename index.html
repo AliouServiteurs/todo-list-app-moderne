@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>Ma To Do List</h1>
+            <div class="counter">
+                <span id="taskCount">0 tâche(s)</span>
+            </div>
+        </div>
+
+        <div class="addToDo">
+            <input type="text" id="inp" placeholder="Saisissez votre tâche ici puis appuyez sur Entrée..." autofocus>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Toutes</button>
+            <button class="filter-btn" data-filter="active">Actives</button>
+            <button class="filter-btn" data-filter="completed">Terminées</button>
+        </div>
+
+        <div id="toDoList" class="ToDoList">
+            <!-- Les tâches seront ajoutées ici dynamiquement -->
+        </div>
+
+        <div class="actions">
+            <button id="clearCompleted">Supprimer les terminées</button>
+            <button id="clearAll">Tout supprimer</button>
+        </div>
+    </main>
+    <script src="js/todo.js"></script>
+</body>
+
+</html>
