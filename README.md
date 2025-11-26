@@ -3,6 +3,9 @@
 Une application de liste de tâches **moderne et responsive** développée avec **HTML**, **CSS** et **JavaScript**.
 
 ---
+<img width="1362" height="687" alt="todo_ninterface" src="https://github.com/user-attachments/assets/37200648-7b6c-4e4e-b5ff-a6fe18b10c0d" />
+
+---
 
 ## ✨ Fonctionnalités
 
